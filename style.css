@@ -1,4 +1,35 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background: url(./img/ivana-cajina-asuyh-_ZX54-unsplash.png);
+  background-position: center;
+  background-position-x: right;
+  line-height: 1.5;
+  margin-left: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  border: 2px solid white;
+  width: 90%;
+  max-width: 900px;
+  margin: 0;
+  padding: 30px;
+  justify-content: start;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
 }
